@@ -17,6 +17,8 @@ namespace Threading
         {
             _dartNum = dartNum;
             int randomNum = _genNum.Next(dartNum, _dartsLanded);
+
+            Console.WriteLine(randomNum);
         }
     }
 }
