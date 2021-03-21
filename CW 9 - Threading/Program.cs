@@ -12,6 +12,8 @@ namespace Threading
         {
             FindPiThread e = new FindPiThread(20);
 
+            Console.WriteLine(e.getLanded); // Test, works
+
             Console.ReadKey();
         }
     }

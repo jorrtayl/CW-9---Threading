@@ -20,5 +20,11 @@ namespace Threading
 
             Console.WriteLine(randomNum);
         }
+
+        public int getLanded
+        {
+            get => _dartsLanded;
+            set => _dartsLanded = value;
+        }
     }
 }
